@@ -3,17 +3,46 @@
 <head>
   <title> 상시성과관리 SaaS </title>
   <meta charset="utf-8">
+  <style>
+  body {
+    margin:0
+  }
+  a {color:black;
+  text-decoration:none;}
+  h1 {font-size:40px;
+    text-align:center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px
+  }
+  ol{
+    border-right:1px solid gray;
+    width: 160px;
+    margin:0;
+    padding-left:40px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 200px 1fr
+  }
+  #article{
+    padding-left: 30px
+  }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">상시성과관리SaaS</a></h1>
-  <h3>목차</h3>
-<ol>
-  <li><a href="1.html">사업 추진배경</a></li>
-  <li><a href="2.html">서비스 개요</a></li>
-  <li><a href="3.html">개발 방안</a></li>
-</ol>
-
-<h2><strong> 3.개발 방안 </strong></h2>
-<p>On-Premise 형의 기존 Monolithic Service 에서 적절한 수준의 Micro Service로 분해하기 위한 계획 분석 > 디자인 및 설계 > 서비스 개발 > 점검 및 테스트 > 피드백 과정으로 수행</p>
-<p>MSA 전환 시 기존 서비스를 독립성, 분산성을 가질 수 있게 적절하 Micreo화 하는 게 가장 중요한 과제이며, 그동안의 경험에서 예상되는 한계점을 나열하고 대응방안을 정리하면 아래의 <표>와 같음</p>
+  <div id="grid">
+    <ol>
+      <p><strong>목차</strong></p>
+      <li><a href="1.html">사업 추진배경</a></li>
+      <li><a href="2.html">서비스 개요</a></li>
+      <li><a href="3.html">개발 방안</a></li>
+    </ol>
+    <div id="article">
+      <h2><strong> 3.개발 방안 </strong></h2>
+      <p>On-Premise 형의 기존 Monolithic Service 에서 적절한 수준의 Micro Service로 분해하기 위한 계획 분석 > 디자인 및 설계 > 서비스 개발 > 점검 및 테스트 > 피드백 과정으로 수행</p>
+      <p>MSA 전환 시 기존 서비스를 독립성, 분산성을 가질 수 있게 적절하 Micreo화 하는 게 가장 중요한 과제이며, 그동안의 경험에서 예상되는 한계점을 나열하고 대응방안을 정리하면 아래의 <표>와 같음</p>
+    </div>
+ </div>
 </body>
